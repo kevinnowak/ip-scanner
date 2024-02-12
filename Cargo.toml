@@ -1,0 +1,8 @@
+[package]
+name = "ip-scanner"
+version = "1.0.1"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.32.0", features = ["full"] }
+bpaf = { version = "0.9.5", features = ["derive", "bright-color"] }
